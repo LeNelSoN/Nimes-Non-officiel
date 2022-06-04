@@ -5,6 +5,9 @@ $color-background1: #026ce1;
 $color-background2: #b1b1b1;
 $police-color1: #9ac2f3;
 
+html {
+    scroll-behavior:smooth;
+    }
 body{
     font-family: 'Oxygen', Arial, serif, sans-serif;
 }
@@ -69,7 +72,6 @@ header{
         position: fixed; right: 0; bottom: 0;
         min-width: 100%; min-height: 100%;
         width: auto; height: auto; z-index: -100;
-        background: url(../content/img/pont-du-gard.png) no-repeat;
         background-size: cover;
       }
     .bckgrnd1{
