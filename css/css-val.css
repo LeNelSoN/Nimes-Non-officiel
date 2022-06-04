@@ -1,0 +1,253 @@
+body {
+  font-family: "Oxygen", Arial, serif, sans-serif;
+}
+
+.active {
+  background-color: #b1b1b1;
+  color: #000000;
+}
+
+textarea {
+  resize: none;
+}
+
+.para-color {
+  color: #9ac2f3;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+nav a {
+  text-decoration: none;
+  color: #0c3f7a;
+  padding: 15px;
+}
+nav a:hover {
+  color: #000000;
+}
+nav.d-flex {
+  display: flex;
+}
+nav.justify-evenly {
+  justify-content: space-evenly;
+}
+nav.align-baseline {
+  align-items: baseline;
+}
+nav.opacity-background {
+  opacity: 0;
+}
+nav h1 {
+  color: #e0e0e0;
+}
+nav h1:hover {
+  color: #026ce1;
+  cursor: pointer;
+}
+
+.bckgrnd-nav {
+  background-color: #026ce1;
+}
+
+.opacity-0 {
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+header {
+  height: 190vh;
+}
+header video#bgvid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url(../content/img/pont-du-gard.png) no-repeat;
+  background-size: cover;
+}
+header .bckgrnd1 {
+  background-size: 100%;
+  height: 800px;
+}
+header .bckgrnd2 {
+  background: url(../content/img/nimes-by-night.png) no-repeat fixed;
+  background-size: 100%;
+  height: 800px;
+}
+header h1, header h2, header p {
+  color: #e0e0e0;
+}
+header .d-flex {
+  display: flex;
+}
+header .justify-evenly {
+  justify-content: space-evenly;
+}
+header .justify-center {
+  justify-content: center;
+}
+header .align-baseline {
+  align-items: baseline;
+}
+header .flex-col {
+  flex-direction: column;
+}
+header .opacity-background {
+  opacity: 0;
+}
+header .bckgrnd-color {
+  background-color: #026ce1;
+}
+header .w-50 {
+  width: 50%;
+}
+header .w-25 {
+  width: 25%;
+}
+header .w-100 {
+  width: 100%;
+}
+header .m-lr-5px {
+  margin: 0 5px;
+}
+header .text-center {
+  text-align: center;
+}
+
+#whatWeDo {
+  background-color: #fff;
+  margin: -55px 0;
+  padding: 0 200px;
+}
+#whatWeDo span {
+  color: #026ce1;
+  font-size: 2rem;
+}
+#whatWeDo .font-color {
+  color: #026ce1;
+}
+#whatWeDo a {
+  text-decoration: none;
+  color: #026ce1;
+}
+#whatWeDo a:hover {
+  text-decoration: underline 2px;
+}
+#whatWeDo .d-flex {
+  display: flex;
+}
+#whatWeDo .justify-evenly {
+  justify-content: space-evenly;
+}
+#whatWeDo .justify-center {
+  justify-content: center;
+}
+#whatWeDo .align-baseline {
+  align-items: baseline;
+}
+#whatWeDo .flex-col {
+  flex-direction: column;
+}
+#whatWeDo .wrap {
+  flex-wrap: wrap;
+}
+#whatWeDo .opacity-background {
+  opacity: 0;
+}
+#whatWeDo .bckgrnd-color {
+  background-color: #026ce1;
+}
+#whatWeDo .m-20px {
+  margin: 20px;
+}
+#whatWeDo .p-lr-200px {
+  padding: 20px;
+}
+#whatWeDo .w-25 {
+  font-size: 2.5rem;
+}
+#whatWeDo .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+#whatWeDo .grid1 {
+  grid-area: 1/1/2/2;
+}
+#whatWeDo .grid2 {
+  grid-area: 1/2/2/3;
+}
+#whatWeDo .grid3 {
+  grid-area: 2/1/3/2;
+}
+#whatWeDo .grid4 {
+  grid-area: 2/2/3/3;
+}
+
+#testimonials .bckgrnd {
+  background: linear-gradient(rgba(0, 0, 0, 0.3490196078), rgba(0, 0, 0, 0.3490196078)), url(../content/img/nimes-by-night.png) fixed;
+}
+#testimonials .bckgrnd2 {
+  background: rgba(176, 206, 238, 0.3843137255);
+}
+#testimonials img {
+  border-radius: 65% 35%;
+  height: 100px;
+}
+#testimonials .d-flex {
+  display: flex;
+}
+#testimonials .justify-evenly {
+  justify-content: space-evenly;
+}
+#testimonials .justify-center {
+  justify-content: center;
+}
+#testimonials .align-baseline {
+  align-items: baseline;
+}
+#testimonials .flex-col {
+  flex-direction: column;
+}
+#testimonials .no-flex {
+  flex: auto;
+}
+#testimonials .text-center {
+  text-align: center;
+}
+#testimonials .gap {
+  gap: 20px;
+}
+#testimonials .p {
+  padding: 0 80px;
+}
+#testimonials .p-lr-200px {
+  padding: 0 250px;
+}
+#testimonials .m-tb-20px {
+  margin: 20px 0;
+}
+#testimonials .max {
+  max-width: 40vw;
+}
+
+#gallery {
+  background-color: #fff;
+  margin-top: -25px;
+  height: 60vh;
+}
+
+/*# sourceMappingURL=css-val.css.map */

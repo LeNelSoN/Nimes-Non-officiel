@@ -1,0 +1,90 @@
+#bloc-contact-tom {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border: 1px solid black;     
+    background: url("../content/img/colisee-dark.png") fixed;
+    
+}
+#bloc-contact-tom h2, #bloc-contact-tom p, #bloc-contact-tom a {
+    color: white;
+    font-family: 'Oxygen', Arial, serif, sans-serif;
+}
+#bloc-contact-tom h2 {
+    font-size: 2em;
+}
+#bloc-contact-tom a {
+    text-decoration: none;
+}
+#bloc-contact-tom a:hover {
+    color: #2E76A8;
+}
+/* ------------------------ Titre --------------------------- */
+.titre-contact-tom {
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 30px;
+}
+/* -------------------- Bloc form / contact ----------------- */
+.espacement-formulaire {
+    display: flex;
+}
+.espacement-formulaire form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+}
+.nos-infos {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.espacement-formulaire form input,.espacement-formulaire form textarea {
+    margin-bottom: 13px;
+    margin-left: 13px;
+    padding: 10px 20px 10px 20px;
+    
+    background-color: #EAF0ED00;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.espacement-formulaire button {
+    width: 50%;
+    margin-bottom: 13px;
+    margin-left: 13px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    font-size: 1.1em;
+    background-color: #2E76A8;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid #EAF0ED00;
+    cursor: pointer;
+}
+.espacement-formulaire button:hover {
+    background-color: #50A0D8;
+}
+.contact-item {
+    margin-bottom: 20px;
+    margin-right: 13px;
+}
+.contact-item i {
+    width: 40px;
+}
+.espacement-formulaire form input::placeholder,.espacement-formulaire form textarea::placeholder {
+    color: white;
+    font-size: 1.4em;
+}
+.formulaire-style {
+    color: white;
+}
+.mb-0 {
+    margin-left: 20px;
+}
+#copyright{
+    color: #e6e6e6;
+    font-size: 0.5rem;
+}
