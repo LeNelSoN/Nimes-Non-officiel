@@ -14,7 +14,6 @@ let limitScrollGalery = 2790;
 let limitScrollContact = 3304;
 
 Nimes.addEventListener('click', ()=>{
-    document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 });
 
