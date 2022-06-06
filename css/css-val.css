@@ -31,10 +31,13 @@ nav {
 nav a {
   text-decoration: none;
   color: #0c3f7a;
+  background-color: #b1b1b173;
   padding: 15px;
 }
 nav a:hover {
   color: #000000;
+  background-color: #b1b1b1;
+
 }
 nav.d-flex {
   display: flex;
